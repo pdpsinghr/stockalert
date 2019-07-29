@@ -130,8 +130,8 @@ function updatedc (id) {
 
 function sendsms (contactNo) {
 
-  const accountSid = 'AC988e13a0f6e1c28abdeb72afe51ae3cd';
-  const authToken = '31ab81d6cae33ade3cd25aebe9a0fade';
+  const accountSid = 'sid';
+  const authToken = 'token';
   const client = require('twilio')(accountSid, authToken);
 
   client.messages
